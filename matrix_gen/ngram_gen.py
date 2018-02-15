@@ -109,7 +109,7 @@ for i in range(0,num_of_files):
       fw_pairs.write("%f,%s,%s\n"%(sim_mat[i][j],list_of_files[i],list_of_files[j]))
 fw_pairs.close()
 
-debugmsg("Completing a similality matrics...\n")
+debugmsg("Completing a similality matrices...\n")
 for i in range(0,num_of_files):
   debugmsg("Phase 3: (%d/%d)\n"%(i,num_of_files))
   for j in range(i+1,num_of_files):
