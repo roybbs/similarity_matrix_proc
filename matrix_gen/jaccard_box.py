@@ -1,7 +1,7 @@
 import re
 from itertools import chain
 import nltk
-from nltk.util import ngrams # This is the ngram magic.
+from nltk.util import ngrams
 
 re_sent_ends_naive = re.compile(r'[.\n]')
 re_stripper_alpha = re.compile('[^a-zA-Z]+')
